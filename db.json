@@ -1,0 +1,19 @@
+{
+    "profesionals":
+    [
+        {"id": "1", "perfil":"Desarrollador Web" ,"name":"Federico Gonzales" , "photo":"assets/team/1.jpg"},
+        {"id": "2", "perfil":"Desarrollador Web" ,"name":"Diana López", "photo":"assets/team/2.jpg"},
+        {"id": "3", "perfil":"Diseñador" ,"name":"Joaquín Aguirre", "photo":"assets/team/3.jpg"}
+    ],
+    "posts": [
+      { "id": "1", "title": "a title", "views": 100 },
+      { "id": "2", "title": "another title", "views": 200 }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }

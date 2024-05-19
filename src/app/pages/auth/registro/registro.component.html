@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 registro-form-header">
+            <p class="registro-form-font-header">Registro<span> Usuario</span><p>
+        </div>
+    </div>
+    <div class="row m-3">
+        <div class="col-md-12 registro-form">
+            <form  [formGroup]="form"  class="form" (submit)="onEnviar($event)"  >
+                <div class="m-3">
+                    <label for="nombre" class="form-label" >Nombre</label>
+                    <input type="text"  id="nombre"  class="form-control" formControlName="nombre"   >
+                </div>
+                <div class="m-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text"  id="apellido"   class="form-control" formControlName="apellido" >
+                </div>
+                <div class="m-3">
+                    <label for="dni" class="form-label">Dni</label>
+                    <input type="number" id="dni"   class="form-control" formControlName="dni"  >
+                </div>
+                <div class="m-3">
+                    <label for="fecha_nacimiento" class="form-label">Fecha de Nacimiento</label>
+                    <input type="date" id="fecha_nacimiento"  class="form-control" formControlName="fechaNacimiento" >
+                </div>
+                <div class="m-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" id="email"  class="form-control" formControlName="email" >
+                </div>
+                <div class="m-3">
+                    <label for="password1" class="form-label">Contraseña</label>
+                    <input type="password" id="password1"  class="form-control" formControlName="password1" > 
+                </div>
+                <div class="m-3">
+                    <label for="password2" class="form-label">Reingrese la Contraseña</label>
+                    <input type="password" id="password2"  class="form-control" formControlName="password2" >
+                </div>
+                <div class="m-3">
+                    <button class="btn btn-primary mt-3" >Enviar</button>
+                </div>
+            </form>
+      </div>
+    </div>
+</div>

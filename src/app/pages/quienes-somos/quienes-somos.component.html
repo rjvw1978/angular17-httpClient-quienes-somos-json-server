@@ -1,0 +1,28 @@
+<section class="p-5 page-section bg-light" id="team">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Nuestro Equipo</h2>
+        </div>
+  
+        <div class="row">
+            @for (profesional of profesionalList; track profesional.id )
+            {
+                <div class="col-md-4">
+                    <div >
+                        <img class="rounded-circle img-fluid" [src]=profesional.photo alt="..." />
+                        <h4>{{profesional.name}}</h4>
+                        <p class="text-muted">{{profesional.perfil}}</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark"  routerLink="/quienes-somos/1">Ver Perfil</a>
+                    </div>
+                </div>
+                }
+            @empty {
+                    <p>There are no profesional items.</p>
+                }
+            </div>
+    </div>
+</section>
+  
