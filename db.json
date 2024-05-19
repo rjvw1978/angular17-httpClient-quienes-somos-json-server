@@ -1,5 +1,5 @@
 {
-    "profesionals":
+    "profesionalsd":
     [
         {"id": "1", "perfil":"Desarrollador Web" ,"name":"Federico Gonzales" , "photo":"assets/team/1.jpg"},
         {"id": "2", "perfil":"Desarrollador Web" ,"name":"Diana López", "photo":"assets/team/2.jpg"},
